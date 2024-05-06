@@ -23,7 +23,7 @@ function App() {
       <br/>
       <Card/>
       <br/>
-      <Button onClick={weather.resetData } value="Reset" />
+      <Button onClick={weather.refreashData } value="Reset" />
       <br/>
     </div>
   );
