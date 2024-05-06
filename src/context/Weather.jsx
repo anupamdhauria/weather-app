@@ -20,7 +20,7 @@ export const WeatherProvider=(props)=>{
         setData(reponse);
     }
 
-    const refreashData=()=>{
+    const resetData=()=>{
         setData(null)
         setSearchCity("")
     }
