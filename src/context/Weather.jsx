@@ -14,7 +14,7 @@ export const useWeather=()=>{
 export const WeatherProvider=(props)=>{
     const[data,setData]=useState(null);
     const[searchCity,setSearchCity]=useState("");
-
+    //reset the value
     const fetchData=async()=>{
         const reponse=await getWeatherDataForCity(searchCity);
         setData(reponse);
