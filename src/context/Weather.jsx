@@ -37,7 +37,7 @@ export const WeatherProvider=(props)=>{
        
     };
     return(
-        <WeatherContext.Provider value={{searchCity,data,setSearchCity,fetchData,refreashData,fetchWeatherdataByCurrentLocation}}>
+        <WeatherContext.Provider value={{searchCity,data,setSearchCity,fetchData,resetData,fetchWeatherdataByCurrentLocation}}>
             {props.children}
         </WeatherContext.Provider>
     );
