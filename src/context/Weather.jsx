@@ -22,6 +22,7 @@ export const WeatherProvider=(props)=>{
 
     const refreashData=()=>{
         setData(null)
+        setSearchCity("")
     }
     const fetchWeatherdataByCurrentLocation=()=>{
         //callback function
