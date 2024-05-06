@@ -16,10 +16,15 @@ function App() {
   return (
     <div className="App">
       <h1>weather Forecast</h1>
+      <br/>
       <Input/>
       <Button onClick={weather.fetchData}value="Search"/>
+      <br/>
+      <br/>
       <Card/>
+      <br/>
       <Button onClick={weather.refreashData } value="Refresh" />
+      <br/>
     </div>
   );
 }
